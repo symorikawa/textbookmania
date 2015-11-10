@@ -2,6 +2,7 @@
   <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 
     <img id="headerimage" src="/images/Books.jpg">
+
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav">
@@ -10,13 +11,22 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="{{pathFor 'Home'}}">Textbook Mania</a>
+        <h1>Textbook Mania</h1>
       </div>
 
       <ul class="collapse navbar-collapse" id="main-nav">
 
         <ul class="nav navbar-nav navbar-right">
 
+<li>
+          <div class="dropdown">
+            <a data-toggle="dropdown" class="dropdown-toggle">Students <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+            </ul>
+          </div>
+</li>
 
           <li><a href="{{ pathFor 'Student' }}">Student</a></li>
           <li><a href="{{ pathFor 'Textbooks' }}">Textbooks</a></li>

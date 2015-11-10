@@ -6,6 +6,16 @@ body {
 h1, h2{
   color: black;
 }
+a{
+  color: #9d9d9d;
+}
+a:hover{
+  color: white;
+}
+a.dropdown-toggle{
+  padding-top:15px;
+  padding-bottom:15px;
+}
 
 
 
